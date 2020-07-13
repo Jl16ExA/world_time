@@ -19,7 +19,7 @@ class _HomeState extends State<Home> {
     print(data);
 
     //set background
-    String bgImage = data['isDayTime'] ? 'day.png' : 'night.png';
+    // String bgImage = data['isDayTime'] ? 'day.png' : 'night.png';
     Color bgColor = data['isDayTime'] ? Colors.white : Colors.grey[900];
     Color letterColor = data['isDayTime'] ? Colors.grey[900] : Colors.white;
 

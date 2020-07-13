@@ -31,7 +31,7 @@ class _LoadingState extends State<Loading> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.grey[900],
         body: Center(
           child: SpinKitFoldingCube(
             color: Colors.white,
